@@ -23,5 +23,7 @@ namespace NerdileSnippets.WinFormsHelpers
                 if (--_count == 0) ExitThread();
             };
         }
+
+        public bool HasAnyWindows => _count > 0;
     }
 }
